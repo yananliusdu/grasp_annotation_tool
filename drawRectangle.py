@@ -84,7 +84,6 @@ for imgidx in range(len(imgFiles)):
             width_angle.clear()
 
 
-
     cid = fig.canvas.mpl_connect('button_press_event', onclick)
     plt.show()
 

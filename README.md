@@ -1,6 +1,6 @@
-# grasp_annotation_tool (python version)
+# grasp_annotation_tool (Python version)
 
-#### a simple Matlab GUI for annotating rotated grasping bounding box  
+#### a simple Python GUI for annotating rotated grasping bounding box  
 ------
 
 ## Example
