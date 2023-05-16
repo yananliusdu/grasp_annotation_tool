@@ -36,6 +36,11 @@ imgFiles = [f for f in sorted(os.listdir(imgDataDir)) if f.endswith('.png')]
 for imgidx in range(len(imgFiles)):
     # open image and annotation 
     imgName = imgFiles[imgidx]
+    # choose a specific image
+    # if imgName == '114.png':
+    #     pass
+    # else:
+    #     continue
     imgname, _ = os.path.splitext(imgName)
     im = Image.open(os.path.join(imgDataDir, imgName))
     annofile = open(os.path.join(annoDataDir, imgname + '_annotations.txt'), 'w')
